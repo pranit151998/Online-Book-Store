@@ -1,0 +1,74 @@
+.input-style {
+  width: 70%;
+  padding: 12px 20px;
+  margin-left:12%;
+  box-sizing: border-box;
+  border: none;
+  background-color: #fff6a3;
+  color: black;
+  font-size: 16px;
+  border-radius:25px 25px 30px 5px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+input[type=text], textarea:focus,button:focus{
+  outline: none;
+  background-color: #fff6a3;  /* oranges! yey */
+}
+
+input[type=password]{
+  outline: none;
+  background-color: #fff6a3;  /* oranges! yey */
+}
+input[type=tel]{
+  outline: none;
+  background-color: #fff6a3;  /* oranges! yey */
+}
+
+
+
+.button {
+  background-color: #edccff; /* Green */
+  border: none;
+  border-radius:12px;
+  color: black;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left:37%;
+  font-size: 16px;
+  width:25%;
+   border-style:solid;
+  border-width:3px;
+}
+
+.button:hover {
+  background-color: aqua;
+  color: black;
+}
+
+hr
+{
+	width: 40%
+}
+h3
+{
+	text-align: center;
+	color: black;
+}
+.alert
+{
+	color:green;
+}
+
+.profile-style
+{
+	border-style: dotted;
+	
+}

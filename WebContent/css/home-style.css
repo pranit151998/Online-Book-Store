@@ -1,0 +1,219 @@
+    body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+
+}
+a
+{
+	text-decoration: none;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:#fff6a3;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /*margin-left: 5%;*/
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+  background-color: #E0FFFF;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr :nth-child(even){
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+/*Header Css*/
+* {box-sizing: border-box;}
+    
+    body {
+      margin: 0;
+      font-family: Montserrat, sans-serif;
+      letter-spacing: 4px;
+      border: 0;
+   }
+   
+    .topnav {
+      overflow: hidden;
+      background-color: #cdc0fbde;
+    }
+    
+    .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      
+    }
+    
+    .topnav a:hover {
+      background-color: #ffff00;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #2196F3;
+      color: white;
+    }
+    .topnav .logout{
+    float: right;
+    }
+    
+    .topnav .search-container {
+      float: right;
+     
+    }
+    
+    .topnav input[type=text] {
+      padding: 6px;
+      margin-top: 5px;
+      font-size: 17px;
+      border: none;
+       border-radius:25px 25px 30px 5px;
+           border-style: solid;
+           border-width: 3px;
+           outline: none;
+           background-color:#fff6a3;
+    }
+    
+    .topnav .search-container button {
+      float: right;
+      padding: 6px 10px;
+      margin-top: 5px;
+      margin-right: 25px;
+      background: #4cf979de;
+      font-size: 17px;
+      border: 3px;
+      cursor: pointer;
+      border-radius:50%;  
+      border-style: solid;
+       border-width: 3px;     
+    }
+    
+    .topnav .search-container button:hover {
+      background: #ffc94f;
+     }
+    
+    @media screen and (max-width: 600px) {
+      .topnav .search-container {
+        float: none;
+      }
+      .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+      }
+      .topnav input[type=text] {
+        border: 1px solid #ccc;  
+      }
+      .topnav .search-container :hover {
+      background: #ffc94f;
+     }
+
+    
+      
+    }
+ 
+/*footer*/
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#cdc0fbde;
+   color:black;
+   text-align: center;
+}
+
+.h2222 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #0080FF;
+  color: white;
+}
